@@ -10,7 +10,8 @@ end
 
 def take_a_number(katz_deli, name)
   
-puts "Welcome, #{name}. You are number #{name.index} in line"
+  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+}
 
   
 end  
