@@ -3,6 +3,9 @@ katz_deli = []
 
 def line(array) 
    current_line = "The line is currently:"
+  if array == 0
+    puts current_line.pop << "is empty."
+   
   array.each.with_index(1) do |name, index_place|  
     current_line << " #{index_place}. #{name}"    
   end
