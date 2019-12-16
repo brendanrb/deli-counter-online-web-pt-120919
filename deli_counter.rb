@@ -4,13 +4,10 @@ katz_deli = []
 def line(array) 
   
   current_line = "The line is currently:"
-  if array.size > 0
   array.each.with_index(1) do |name, index_place|  
     current_line << " #{index_place}. #{name}"    
     puts current_line
-  else
-    puts "The line is currently empty."
-end 
+  end
 
 def take_a_number(line, new_person)
   line << new_person
