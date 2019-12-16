@@ -21,4 +21,4 @@ def now_serving(array)
   else 
     puts "Currently serving #{name}"
   end
-  
+end
