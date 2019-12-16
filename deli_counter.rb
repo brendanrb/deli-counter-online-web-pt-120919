@@ -15,5 +15,5 @@ def take_a_number(katz_deli, name) {
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
 
-  
+end
 end  
