@@ -2,11 +2,12 @@ katz_deli = []
 
 
 def line(array) 
+  if array.size > 0
   current_line = "The line is currently:"
-  if array.size == 0 
-    puts "The line is currently empty."
   array.each.with_index(1) do |name, index_place|  
     current_line << " #{index_place}. #{name}"    
+  else
+    puts "The line is currently empty."
   end
   puts current_line
 end 
