@@ -10,6 +10,9 @@ end
 
 def take_a_number(katz_deli, name)
   
+puts "Welcome, #{name}. You are number #{name.index} in line"
+function takeANumber(katzDeliLine, name) {
+  katzDeliLine.push(name)
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
 
