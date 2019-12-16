@@ -8,11 +8,8 @@ def line (katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
-  
-puts "Welcome, #{name}. You are number #{name.index} in line"
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name)
+def takeANumber(katz_Deli, name) {
+  katzDeli.push(name)
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
 
